@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".DetailsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/sginup_image_ed"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/imageinven"
+             />
+
+
+        <Spinner
+            android:id="@+id/gender_ed"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:entries="@array/gender_array"
+            android:spinnerMode="dialog"
+            android:layout_below="@id/sginup_image_ed"
+            />
+
+    <EditText
+        android:id="@+id/name_details_ed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:hint="Name"
+        android:layout_below="@id/gender_ed"
+         />
+
+
+    <EditText
+        android:id="@+id/signup_email_ed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="email"
+        android:layout_below="@id/name_details_ed"/>
+
+    <EditText
+        android:id="@+id/signup_phone_number_ed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/textphone"
+        android:inputType="phone"
+        android:layout_below="@id/signup_email_ed"/>
+
+
+        <EditText
+            android:id="@+id/Address_ed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address"
+            android:inputType="textPersonName"
+            android:layout_below="@id/signup_phone_number_ed"/>
+
+        <EditText
+            android:id="@+id/signup_city_ed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="city"
+            android:inputType="textPersonName"
+            android:layout_below="@id/Address_ed"/>
+
+        <Spinner
+            android:id="@+id/donor_option_ed"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:entries="@array/bloodGroup_array"
+            android:layout_below="@id/signup_city_ed"/>
+
+
+    <RadioButton
+        android:id="@+id/donor_or_not_ed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="I am a donor"
+        android:layout_below="@id/donor_option_ed"/>
+
+
+    <Button
+        android:id="@+id/reg_button_ed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:background="@drawable/buttonconner"
+        android:layout_below="@id/donor_or_not_ed"/>
+
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

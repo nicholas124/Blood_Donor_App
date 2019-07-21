@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "33436150244",
+    "firebase_url": "https://inventorymanagement-a1744.firebaseio.com",
+    "project_id": "inventorymanagement-a1744",
+    "storage_bucket": "inventorymanagement-a1744.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:33436150244:android:f3e5692ce6b7e68c",
+        "android_client_info": {
+          "package_name": "com.example.mypc.inventorymanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "33436150244-q0vhhnmmj520udv98etfce482tf4aag5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mypc.inventorymanagement",
+            "certificate_hash": "18c6d394d9714f7af36a573ba5b3fec3b2de1c6c"
+          }
+        },
+        {
+          "client_id": "33436150244-7tc306jt8lg17aamrk66jd1m9f5sn20k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0aYgZY0BiUqGbClb5_1_Cur4mva2-zNs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "33436150244-7tc306jt8lg17aamrk66jd1m9f5sn20k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

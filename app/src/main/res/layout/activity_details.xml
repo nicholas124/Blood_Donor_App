@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".DetailsActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/detail_donor_image"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/imageinven" />
+    <TextView
+        android:id="@+id/detail_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="testing text"
+        android:layout_below="@id/detail_donor_image"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        />
+    <TextView
+        android:id="@+id/detail_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="testing text"
+        android:layout_below="@id/detail_name"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        />
+    <TextView
+        android:id="@+id/detail_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="testing text"
+        android:layout_below="@id/detail_gender"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        />
+    <TextView
+        android:id="@+id/detail_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="testing text"
+        android:layout_below="@id/detail_email"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        />
+    <TextView
+        android:id="@+id/detail_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="testing text"
+        android:layout_below="@id/detail_phone"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        />
+    <TextView
+        android:id="@+id/detail_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="testing text"
+        android:layout_below="@id/detail_address"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        />
+    <TextView
+        android:id="@+id/detail_bloodtype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="testing text"
+        android:layout_below="@id/detail_city"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        />
+    <TextView
+        android:id="@+id/detail_donor_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="testing text"
+        android:layout_below="@id/detail_bloodtype"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        />
+
+
+</RelativeLayout>

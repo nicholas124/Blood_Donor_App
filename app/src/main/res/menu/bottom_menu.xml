@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_search"
+
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home" />
+    <item
+        android:id="@+id/nav_bank"
+        android:icon="@drawable/ic_bank_black_24dp"
+        android:title="@string/blood_bank" />
+    <item
+        android:id="@+id/nav_details"
+        android:icon="@drawable/ic_portrait_black_24dp"
+        android:title="@string/acc_nav" />
+</menu>
